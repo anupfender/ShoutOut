@@ -1,0 +1,229 @@
+2017-12-21 14:19:34 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shoutout.dashboard' doesn't exist in /var/www/html/shoutout/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 131
+Stack Trace:
+#0 /var/www/html/shoutout/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'dashboard', Array, Object(Cake\Database\Schema\TableSchema))
+#1 /var/www/html/shoutout/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('dashboard', Array)
+#2 /var/www/html/shoutout/vendor/cakephp/cakephp/src/ORM/Table.php(532): Cake\Database\Schema\CachedCollection->describe('dashboard')
+#3 /var/www/html/shoutout/vendor/cakephp/cakephp/src/ORM/Table.php(653): Cake\ORM\Table->getSchema()
+#4 /var/www/html/shoutout/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(220): Cake\ORM\Table->getPrimaryKey()
+#5 /var/www/html/shoutout/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 /var/www/html/shoutout/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'dashboard', 'Dashboard')
+#7 /var/www/html/shoutout/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('Dashboard')
+#8 /var/www/html/shoutout/vendor/cakephp/bake/src/Shell/BakeShell.php(259): Bake\Shell\Task\ModelTask->main('Dashboard')
+#9 /var/www/html/shoutout/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Dashboard', 0)
+#10 /var/www/html/shoutout/vendor/cakephp/bake/src/Shell/BakeShell.php(260): Cake\Collection\Collection->each(Object(Closure))
+#11 /var/www/html/shoutout/vendor/cakephp/cakephp/src/Console/Shell.php(493): Bake\Shell\BakeShell->all('Dashboard')
+#12 /var/www/html/shoutout/vendor/cakephp/cakephp/src/Console/CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#13 /var/www/html/shoutout/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#14 {main}
+
+
+2017-12-21 14:20:55 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shoutout.dashboards' doesn't exist in /var/www/html/shoutout/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 131
+Stack Trace:
+#0 /var/www/html/shoutout/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'dashboards', Array, Object(Cake\Database\Schema\TableSchema))
+#1 /var/www/html/shoutout/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('dashboards', Array)
+#2 /var/www/html/shoutout/vendor/cakephp/cakephp/src/ORM/Table.php(532): Cake\Database\Schema\CachedCollection->describe('dashboards')
+#3 /var/www/html/shoutout/vendor/cakephp/cakephp/src/ORM/Table.php(653): Cake\ORM\Table->getSchema()
+#4 /var/www/html/shoutout/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php(297): Cake\ORM\Table->getPrimaryKey()
+#5 /var/www/html/shoutout/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php(151): Bake\Shell\Task\TemplateTask->_loadController()
+#6 /var/www/html/shoutout/vendor/cakephp/cakephp/src/Console/Shell.php(507): Bake\Shell\Task\TemplateTask->main('Dashboards')
+#7 /var/www/html/shoutout/vendor/cakephp/cakephp/src/Console/Shell.php(500): Cake\Console\Shell->runCommand(Array, false, Array)
+#8 /var/www/html/shoutout/vendor/cakephp/cakephp/src/Console/CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#9 /var/www/html/shoutout/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#10 {main}
+
+
+2018-01-04 10:00:52 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shoutout.login' doesn't exist in /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 131
+Stack Trace:
+#0 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'login', Array, Object(Cake\Database\Schema\TableSchema))
+#1 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('login', Array)
+#2 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/ORM/Table.php(532): Cake\Database\Schema\CachedCollection->describe('login')
+#3 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/ORM/Table.php(653): Cake\ORM\Table->getSchema()
+#4 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(220): Cake\ORM\Table->getPrimaryKey()
+#5 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'login', 'Login')
+#7 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('Login')
+#8 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/BakeShell.php(259): Bake\Shell\Task\ModelTask->main('Login')
+#9 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Login', 0)
+#10 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/BakeShell.php(260): Cake\Collection\Collection->each(Object(Closure))
+#11 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Console/Shell.php(493): Bake\Shell\BakeShell->all('Login')
+#12 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Console/CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#13 /var/www/html/shoutoutadmin/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#14 {main}
+
+
+2018-01-04 10:01:29 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shoutout.login' doesn't exist in /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 131
+Stack Trace:
+#0 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'login', Array, Object(Cake\Database\Schema\TableSchema))
+#1 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('login', Array)
+#2 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/ORM/Table.php(532): Cake\Database\Schema\CachedCollection->describe('login')
+#3 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/ORM/Table.php(653): Cake\ORM\Table->getSchema()
+#4 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(220): Cake\ORM\Table->getPrimaryKey()
+#5 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'login', 'Login')
+#7 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('Login')
+#8 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/BakeShell.php(259): Bake\Shell\Task\ModelTask->main('Login')
+#9 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Login', 0)
+#10 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/BakeShell.php(260): Cake\Collection\Collection->each(Object(Closure))
+#11 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Console/Shell.php(493): Bake\Shell\BakeShell->all('Login')
+#12 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Console/CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#13 /var/www/html/shoutoutadmin/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#14 {main}
+
+
+2018-01-04 10:01:37 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shoutout.login' doesn't exist in /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 131
+Stack Trace:
+#0 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'login', Array, Object(Cake\Database\Schema\TableSchema))
+#1 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('login', Array)
+#2 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/ORM/Table.php(532): Cake\Database\Schema\CachedCollection->describe('login')
+#3 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/ORM/Table.php(653): Cake\ORM\Table->getSchema()
+#4 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(220): Cake\ORM\Table->getPrimaryKey()
+#5 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'login', 'Login')
+#7 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('Login')
+#8 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/BakeShell.php(259): Bake\Shell\Task\ModelTask->main('Login')
+#9 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('login', 0)
+#10 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/BakeShell.php(260): Cake\Collection\Collection->each(Object(Closure))
+#11 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Console/Shell.php(493): Bake\Shell\BakeShell->all('login')
+#12 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Console/CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#13 /var/www/html/shoutoutadmin/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#14 {main}
+
+
+2018-01-04 10:02:30 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shoutout.login' doesn't exist in /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 131
+Stack Trace:
+#0 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'login', Array, Object(Cake\Database\Schema\TableSchema))
+#1 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('login', Array)
+#2 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/ORM/Table.php(532): Cake\Database\Schema\CachedCollection->describe('login')
+#3 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/ORM/Table.php(653): Cake\ORM\Table->getSchema()
+#4 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php(297): Cake\ORM\Table->getPrimaryKey()
+#5 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php(151): Bake\Shell\Task\TemplateTask->_loadController()
+#6 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Console/Shell.php(507): Bake\Shell\Task\TemplateTask->main('login')
+#7 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Console/Shell.php(500): Cake\Console\Shell->runCommand(Array, false, Array)
+#8 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Console/CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#9 /var/www/html/shoutoutadmin/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#10 {main}
+
+
+2018-01-04 10:02:48 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shoutout.login' doesn't exist in /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 131
+Stack Trace:
+#0 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'login', Array, Object(Cake\Database\Schema\TableSchema))
+#1 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('login', Array)
+#2 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/ORM/Table.php(532): Cake\Database\Schema\CachedCollection->describe('login')
+#3 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/ORM/Table.php(653): Cake\ORM\Table->getSchema()
+#4 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php(297): Cake\ORM\Table->getPrimaryKey()
+#5 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php(151): Bake\Shell\Task\TemplateTask->_loadController()
+#6 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Console/Shell.php(507): Bake\Shell\Task\TemplateTask->main('login')
+#7 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Console/Shell.php(500): Cake\Console\Shell->runCommand(Array, false, Array)
+#8 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Console/CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#9 /var/www/html/shoutoutadmin/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#10 {main}
+
+
+2018-01-04 10:03:01 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shoutout.login' doesn't exist in /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 131
+Stack Trace:
+#0 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'login', Array, Object(Cake\Database\Schema\TableSchema))
+#1 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('login', Array)
+#2 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/ORM/Table.php(532): Cake\Database\Schema\CachedCollection->describe('login')
+#3 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/ORM/Table.php(653): Cake\ORM\Table->getSchema()
+#4 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(220): Cake\ORM\Table->getPrimaryKey()
+#5 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'login', 'Login')
+#7 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('Login')
+#8 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Console/Shell.php(507): Bake\Shell\Task\ModelTask->main('login')
+#9 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Console/Shell.php(500): Cake\Console\Shell->runCommand(Array, false, Array)
+#10 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Console/CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#11 /var/www/html/shoutoutadmin/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#12 {main}
+
+
+2018-01-04 10:04:40 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shoutout.login' doesn't exist in /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 131
+Stack Trace:
+#0 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'login', Array, Object(Cake\Database\Schema\TableSchema))
+#1 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('login', Array)
+#2 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/ORM/Table.php(532): Cake\Database\Schema\CachedCollection->describe('login')
+#3 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/ORM/Table.php(653): Cake\ORM\Table->getSchema()
+#4 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(220): Cake\ORM\Table->getPrimaryKey()
+#5 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'login', 'Login')
+#7 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('Login')
+#8 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/BakeShell.php(259): Bake\Shell\Task\ModelTask->main('Login')
+#9 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('login', 0)
+#10 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/BakeShell.php(260): Cake\Collection\Collection->each(Object(Closure))
+#11 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Console/Shell.php(493): Bake\Shell\BakeShell->all('login')
+#12 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Console/CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#13 /var/www/html/shoutoutadmin/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#14 {main}
+
+
+2018-01-04 10:04:57 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shoutout.register' doesn't exist in /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 131
+Stack Trace:
+#0 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'register', Array, Object(Cake\Database\Schema\TableSchema))
+#1 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('register', Array)
+#2 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/ORM/Table.php(532): Cake\Database\Schema\CachedCollection->describe('register')
+#3 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/ORM/Table.php(653): Cake\ORM\Table->getSchema()
+#4 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(220): Cake\ORM\Table->getPrimaryKey()
+#5 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'register', 'Register')
+#7 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('Register')
+#8 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/BakeShell.php(259): Bake\Shell\Task\ModelTask->main('Register')
+#9 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('register', 0)
+#10 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/BakeShell.php(260): Cake\Collection\Collection->each(Object(Closure))
+#11 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Console/Shell.php(493): Bake\Shell\BakeShell->all('register')
+#12 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Console/CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#13 /var/www/html/shoutoutadmin/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#14 {main}
+
+
+2018-01-09 05:07:47 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shoutout.item_listing' doesn't exist in /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 131
+Stack Trace:
+#0 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'item_listing', Array, Object(Cake\Database\Schema\TableSchema))
+#1 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('item_listing', Array)
+#2 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/ORM/Table.php(532): Cake\Database\Schema\CachedCollection->describe('item_listing')
+#3 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/ORM/Table.php(653): Cake\ORM\Table->getSchema()
+#4 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(220): Cake\ORM\Table->getPrimaryKey()
+#5 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'item_listing', 'ItemListing')
+#7 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('ItemListing')
+#8 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/BakeShell.php(259): Bake\Shell\Task\ModelTask->main('ItemListing')
+#9 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('ItemListing', 0)
+#10 /var/www/html/shoutoutadmin/vendor/cakephp/bake/src/Shell/BakeShell.php(260): Cake\Collection\Collection->each(Object(Closure))
+#11 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Console/Shell.php(493): Bake\Shell\BakeShell->all('ItemListing')
+#12 /var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/Console/CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#13 /var/www/html/shoutoutadmin/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#14 {main}
+
+
+2018-01-10 08:55:07 Warning: Warning (512): Association property name "status" clashes with field of same name of table "city_categories". You should explicitly specify the "propertyName" option. in [/var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/ORM/Association.php, line 725]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\ORM\Association::getProperty() - CORE/src/ORM/Association.php, line 725
+Bake\Shell\Task\ModelTask::getEntityPropertySchema() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 580
+Bake\Shell\Task\ModelTask::getTableContext() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 136
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 113
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 100
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 259
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 260
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-01-10 08:55:16 Warning: Warning (512): Association property name "status" clashes with field of same name of table "city_categories". You should explicitly specify the "propertyName" option. in [/var/www/html/shoutoutadmin/vendor/cakephp/cakephp/src/ORM/Association.php, line 725]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\ORM\Association::getProperty() - CORE/src/ORM/Association.php, line 725
+Bake\Utility\Model\AssociationFilter::filterAssociations() - ROOT/vendor/cakephp/bake/src/Utility/Model/AssociationFilter.php, line 96
+Bake\Shell\Task\TemplateTask::_filteredAssociations() - ROOT/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php, line 488
+Bake\Shell\Task\TemplateTask::_loadController() - ROOT/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php, line 310
+Bake\Shell\Task\TemplateTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php, line 151
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 259
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 260
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
